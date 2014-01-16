@@ -1,6 +1,6 @@
 # Iterm2putty
 
-TODO: Write a gem description
+Iterm2putty is a tool which converts iTerm2 color scheme to a Putty color configuration.
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+iterm2putty iterm2.itermcolors > iterm2.reg
+
+Then double clock iterm2.reg on Windows.
 
 ## Contributing
 
@@ -27,3 +29,4 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
