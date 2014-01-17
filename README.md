@@ -3,24 +3,19 @@
 Iterm2putty is a tool which converts iTerm2 color scheme to a Putty color configuration.
 
 ## Installation
+Clone from GitHub:
 
-Add this line to your application's Gemfile:
-
-    gem 'iterm2putty'
+    # git clone https://github.com/src256/iterm2putty.git
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install iterm2putty
+    $ bundle install --path .bundle
 
 ## Usage
 
-iterm2putty iterm2.itermcolors > iterm2.reg
+    $ bundle exec ruby bin/iterm2putty sample.itermcolors > sample.reg
 
-Then double clock iterm2.reg on Windows.
+Modify section name and double clock iterm2.reg on Windows.
 
 ## Contributing
 
